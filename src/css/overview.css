@@ -1,0 +1,47 @@
+.top-nav {
+    background-color: #444;
+    overflow: hidden;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.menu-button {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-list {
+    list-style: none;
+    display: none;
+}
+
+.nav-list.display {
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 1rem;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.content-wrapper {
+    padding: 2rem;
+}
+
+.details-section h2 {
+    margin-top: 1.5rem;
+}
+
+.details-section p {
+    margin-top: 1rem;
+}
